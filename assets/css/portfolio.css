@@ -29,19 +29,28 @@ header {
     float: right;
 }
 
+
 ul {
-    list-style-type: none
+    list-style-type: none;
+    margin-top: 1em;
 }
 
 ul li {
-    display: inline;
     margin-left: 40px;
-    color: gray;
+    color: black;
+    margin-bottom:1em;
 }
-a {
+
+
+a:hover{
+    color:black;
+}
+ul li a {
     text-decoration: none;
-    color: #777777;
+    color: black;
+    margin-left:1em;
 }
+
 
 #jason {
     float: left;
@@ -83,7 +92,7 @@ h2 {
 
 }
   
-.motorx {
+/* .motorx {
     float: left;
     padding: 20px;
     position: relative;
@@ -166,6 +175,55 @@ h2 {
     width: 100%;
     top:4.7em;
     
+} */
+
+
+
+#projects{
+    height:100px;
+    width:100%;
+    background-color:lightslategray;
+    position:fixed;
+    bottom:192px;
+    /* padding: 2em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title{
+    font-weight: bold;
+    margin-right: 3em;
+}
+#dinnermovie{
+    height:100px;
+    width:360px;
+}
+.resume{
+    height:130px;
+    width:100%;
+    background-color:ivory;
+    position:fixed;
+    bottom:62px;
+    /* padding: 2em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.resume-button:hover{
+    color: white;
+}
+.resume-button{
+    padding: 1em 4em;
+    background-color:black;
+    color:white;
+    border-radius: 2em;
+    
+
+    
+    
+    
 }
 
 .footer{
@@ -180,5 +238,6 @@ h2 {
     bottom:0;
     left: 0;
     right:0;
+    position:fixed;
     
 }
